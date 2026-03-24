@@ -113,3 +113,5 @@ function processarEmails(emailRaw) {
     
   return emails.length > 0 ? [...new Set(emails)].join(",") : null;
 }
+
+-- A planilha do google sheets deve ter a estrutura compatível com o script
